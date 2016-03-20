@@ -7,17 +7,12 @@
 	"license": "GPL-3.0",
 
 	"scripts": {
-		"start": "babel-node app.js"
+		"start": "node app.js"
 	},
 
 	"dependencies": {
-		"babel-cli": "6.6.x",
-		"babel-preset-stage-3": "6.5.x"
+		"minecraft-protocol": "0.19.x"
 	},
 
-	"babel": {
-		"presets": [ "stage-3" ]
-	},
-
-	"engine": "node >= 4.0.0"
+	"engine": "node >= 5.0.0"
 }
