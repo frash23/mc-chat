@@ -1,0 +1,23 @@
+{
+	"name": "mc-chat",
+	"description": "Chat with Minecraft servers from the commandline",
+	"README": "README.md",
+	"repository": "frash23/mc-chat",
+	"author": "Jacob Pedersen <jacob@bytesizedpacket.com> (https://jacobpedersen.me)",
+	"license": "GPL-3.0",
+
+	"scripts": {
+		"start": "babel-node app.js"
+	},
+
+	"dependencies": {
+		"babel-cli": "6.6.x",
+		"babel-preset-stage-3": "6.5.x"
+	},
+
+	"babel": {
+		"presets": [ "stage-3" ]
+	},
+
+	"engine": "node >= 4.0.0"
+}
